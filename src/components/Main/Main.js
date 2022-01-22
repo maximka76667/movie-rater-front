@@ -5,10 +5,7 @@ function Main() {
   return (
     <main>
       <Header />
-      <Routes>
-        <Route path="/" element={<p>Main</p>} />
-        <Route path="/movies" element={<p>Movies</p>} />
-      </Routes>
+      <p>Main</p>
     </main>
   );
 }
