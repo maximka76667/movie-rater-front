@@ -1,0 +1,28 @@
+.header {
+  background-color: #000;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__signup {
+  background-color: #142664;
+  width: 100px;
+  top: 20px;
+  left: 80.46%;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.header__signin {
+  background-color: white;
+  width: 100px;
+  height: 40px;
+  bottom: 20px;
+  left: 90.62%;
+  border-radius: 10px;
+  border: 3px solid #142664;
+  color: #142664;
+  font-weight: bold;
+}

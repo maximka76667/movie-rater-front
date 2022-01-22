@@ -1,13 +1,15 @@
 import './Header.css';
 import { NavLink } from 'react-router-dom';
+import Logo from '../Logo/Logo';
 
 function Header() {
   return (
     <header className='header'>
-      <NavLink to="/signup" className='header-signup'>
+      <Logo />
+      <NavLink to="/signup" className='header__signup'>
         Sign up
       </NavLink>
-      <NavLink to='/signin' className='header-signin'>
+      <NavLink to='/signin' className='header__signin'>
         Sign in
       </NavLink>
     </header>
